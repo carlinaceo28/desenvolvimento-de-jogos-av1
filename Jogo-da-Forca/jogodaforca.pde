@@ -23,7 +23,7 @@ void escolherPalavra() {
   fimDeJogo = false;
   
   for (int i = 0; i < palavraOculta.length; i++) {
-    palavraOculta[i] = '_ ';
+    palavraOculta[i] = '_';
   }
   loop(); // Garante que o jogo continue caso tenha parado
 }
